@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Observatory Calendar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+</head>
+<body>
+  <h1>RLMT Calendar</h1>
+  <p>Welcome to the RLMT Observatory Calendar. Here you can add and view events related to the observatory.</p>
+  <hr />
+  <h2>Add Event</h2>
+  <form id="event-form">
+    <input type="text" placeholder="Title" id="title" required />
+    <input type="date" id="start" required />
+    <input type="date" id="end" />
+    <input type="text" placeholder="Location" id="location" required />
+    <input type="text" placeholder="Components (comma separated)" id="components" />
+    <select id="category" required>
+      <option value="">-- Category --</option>
+      <option value="maintenance">Maintenance</option>
+      <option value="config_change">Config Change</option>
+      <option value="observation">Observation</option>
+      <option value="alert">Alert</option>
+    </select>
+    <input type="text" placeholder="Created By" id="created_by" required />
+    <textarea id="notes" placeholder="Notes"></textarea>
+    <button type="submit">Add Event</button>
+  </form>
+  <hr />
+  <button id="export-btn">Download Current Events as JSON</button>
+  <hr />
+  <div id="calendar"></div>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

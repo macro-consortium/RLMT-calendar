@@ -1,0 +1,84 @@
+[
+  {
+    "id": "evt-20250614-maint-filter",
+    "title": "Filter Wheel Maintenance",
+    "start": "2025-06-14",
+    "end": "2025-06-15",
+    "category": "maintenance",
+    "location": "Telescope A",
+    "components": [
+      "filter_wheel",
+      "controller"
+    ],
+    "notes": "Cleaned optics, verified calibration alignment.",
+    "created_by": "Tech Team Alpha",
+    "last_updated": "2025-06-16T10:45"
+  },
+  {
+    "id": "evt-20250620-config-camera",
+    "title": "Installed Camera X",
+    "start": "2025-06-20",
+    "end": "2025-06-25",
+    "category": "config_change",
+    "location": "Telescope B",
+    "components": [
+      "camera"
+    ],
+    "notes": "Switched from Camera Y to Camera X for the summer survey.",
+    "created_by": "Inst B",
+    "last_updated": "2025-06-20T13:30"
+  },
+  {
+    "id": "evt-20241214-6200-install",
+    "title": "Installed ZWO ASI6200 Camera",
+    "start": "2024-12-14",
+    "category": "config_change",
+    "location": "Winer Observatory",
+    "components": [
+      "camera"
+    ],
+    "notes": "Installed after much back-and-forth with the iKon camera and FLI CFW3-12 filter wheel.",
+    "created_by": "Alex, Philip, Nathalie",
+    "last_updated": "2025-05-26T01:00"
+  },
+  {
+    "id": "evt-20241211-maint-telescope",
+    "title": "RLMT Maintenance Trip",
+    "start": "2024-12-11",
+    "end": "2024-12-17",
+    "category": "maintenance",
+    "location": "Winer Observatory",
+    "components": [
+      "telescope",
+      "mount"
+    ],
+    "notes": "Full backend overhaul, new camera and filter wheel.",
+    "created_by": "Alex, Philip, Nathalie",
+    "last_updated": "2025-05-25T01:00"
+  },
+  {
+    "id": "evt-1748285101482",
+    "title": "Camera Setpoint to 0C",
+    "start": "2025-05-24",
+    "category": "config_change",
+    "location": "Winer Observatory",
+    "components": [
+      "camera"
+    ],
+    "notes": "Camera set to 0C, as it was above -10C (previous setpoint) for 90 minutes after the -12 degree sunset.",
+    "created_by": "Philip",
+    "last_updated": "2025-05-26T18:45:01.483Z"
+  },
+  {
+    "id": "evt-1748285429354",
+    "title": "Monsoon Shutdown",
+    "start": "2024-06-20",
+    "end": "2024-09-17",
+    "category": "alert",
+    "location": "Winer Observatory",
+    "components": [],
+    "notes": "Should probably be re-categorized.",
+    "created_by": "Philip",
+    "last_updated": "2025-05-26T18:50:29.355Z"
+  }
+]
